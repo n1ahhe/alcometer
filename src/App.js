@@ -21,6 +21,7 @@ function handleSubmit(e){
   else {
   alkohol = gramsleft / (weight * 0.6);
   }
+  if (alkohol < 0) alkohol = 0;
   setResult(alkohol);
 
   
